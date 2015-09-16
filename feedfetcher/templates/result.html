@@ -1,0 +1,11 @@
+{% extends 'base.html' %}
+{% block content %}
+{% for item in data %}
+<div class="col-sm-12">
+	<h4>{{item.title}}</h4>
+	{{item.description | safe }}
+</div>
+
+{% endfor %}
+
+{% endblock %}

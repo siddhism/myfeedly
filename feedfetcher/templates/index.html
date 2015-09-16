@@ -1,0 +1,27 @@
+{% extends 'base.html' %}
+{% block content %}
+<div class="col-sm-12" style="text-align: center;">
+
+<h4>My feedly</h4>
+<form action="" method="POST" role="form"> {% csrf_token %}
+	<legend>Enter url to subscribe</legend>
+	{{ form.as_p}}
+	<button type="submit" class="btn btn-primary">Submit</button>
+</form>
+
+<div class="col-sm-12" >
+	<h5>Your feeds</h5>
+</div>
+{% for item in all_subscriptions %}
+	<div class="row">
+	<a href="{% url 'result' item.id %}">{{ item.url }}</a>
+	</div>
+{% endfor %}
+
+</div>
+
+
+
+
+
+{% endblock %}
