@@ -10,6 +10,7 @@ from feedfetcher.tasks import parseAllFeeds
 def home(request):
 	form = RssUrlForm(request.POST or None)
 	#added dummy comment
+	# another commit
 	all_subscriptions = RssUrl.objects.all()
 	if form.is_valid():
 		save_it = form.save(commit= False)
