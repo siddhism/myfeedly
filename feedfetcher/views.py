@@ -9,6 +9,7 @@ from feedfetcher.tasks import parseAllFeeds
 # Create your views here.
 def home(request):
 	form = RssUrlForm(request.POST or None)
+	#added dummy comment
 	all_subscriptions = RssUrl.objects.all()
 	if form.is_valid():
 		save_it = form.save(commit= False)
