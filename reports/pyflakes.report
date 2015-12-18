@@ -1,0 +1,9 @@
+feedfetcher/views.py:1: [E] PYFLAKES:'HttpResponseRedirect' imported but unused
+feedfetcher/views.py:1: [E] PYFLAKES:'render' imported but unused
+feedfetcher/views.py:2: [E] PYFLAKES:'BeautifulSoup' imported but unused
+feedfetcher/views.py:3: [E] PYFLAKES:'serializers' imported but unused
+feedfetcher/views.py:5: [E] PYFLAKES:'from forms import *' used; unable to detect undefined names
+feedfetcher/views.py:6: [E] PYFLAKES:'from feeds import *' used; unable to detect undefined names
+feedfetcher/forms.py:2: [E] PYFLAKES:'from models import *' used; unable to detect undefined names
+feedfetcher/tasks.py:4: [E] PYFLAKES:'serializers' imported but unused
+feedfetcher/tasks.py:10: [E] PYFLAKES:'from models import *' used; unable to detect undefined names

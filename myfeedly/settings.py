@@ -39,6 +39,7 @@ INSTALLED_APPS = (
     'django.contrib.staticfiles',
     'feedfetcher',
     'djcelery',
+    'django_jenkins',
 )
 
 MIDDLEWARE_CLASSES = (
@@ -89,7 +90,7 @@ DATABASES = {
 
 LANGUAGE_CODE = 'en-us'
 
-TIME_ZONE = 'UTC'
+TIME_ZONE = 'Asia/Kolkata'
 
 USE_I18N = True
 
@@ -124,3 +125,17 @@ CELERY_RESULT_SERIALIZER = 'json'
 CELERY_RESULT_BACKEND = 'redis://localhost:6379/0'
 CELERYBEAT_SCHEDULER = 'djcelery.schedulers.DatabaseScheduler'
 BROKER_TRANSPORT = 'redis'
+
+
+PROJECT_APPS = (
+        'feedfetcher',
+    )
+JENKINS_TASKS = (
+    # 'django_jenkins.tasks.with_coverage'
+    'django_jenkins.tasks.run_pep8',
+    'django_jenkins.tasks.run_pyflakes',
+    # 'django_jenkins.tasks.run_jslint',
+    # 'django_jenkins.tasks.run_csslint', 
+    # 'django_jenkins.tasks.run_pylint',
+    'django_jenkins.tasks.run_sloccount'
+)

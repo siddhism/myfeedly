@@ -1,0 +1,32 @@
+Have a non-directory at the top, so creating directory top_dir
+Adding /home/siddhesh/djcode/rssfeed/src/feedfetcher/__init__.py to top_dir
+Adding /home/siddhesh/djcode/rssfeed/src/feedfetcher/__init__.pyc to top_dir
+Adding /home/siddhesh/djcode/rssfeed/src/feedfetcher/admin.py to top_dir
+Adding /home/siddhesh/djcode/rssfeed/src/feedfetcher/admin.pyc to top_dir
+Adding /home/siddhesh/djcode/rssfeed/src/feedfetcher/feeds.py to top_dir
+Adding /home/siddhesh/djcode/rssfeed/src/feedfetcher/feeds.pyc to top_dir
+Adding /home/siddhesh/djcode/rssfeed/src/feedfetcher/forms.py to top_dir
+Adding /home/siddhesh/djcode/rssfeed/src/feedfetcher/forms.pyc to top_dir
+Creating filelist for migrations
+Adding /home/siddhesh/djcode/rssfeed/src/feedfetcher/models.py to top_dir
+Adding /home/siddhesh/djcode/rssfeed/src/feedfetcher/models.pyc to top_dir
+Adding /home/siddhesh/djcode/rssfeed/src/feedfetcher/tasks.py to top_dir
+Adding /home/siddhesh/djcode/rssfeed/src/feedfetcher/tasks.pyc to top_dir
+Creating filelist for templates
+Adding /home/siddhesh/djcode/rssfeed/src/feedfetcher/tests.py to top_dir
+Adding /home/siddhesh/djcode/rssfeed/src/feedfetcher/tests.pyc to top_dir
+Adding /home/siddhesh/djcode/rssfeed/src/feedfetcher/views.py to top_dir
+Adding /home/siddhesh/djcode/rssfeed/src/feedfetcher/views.pyc to top_dir
+Categorizing files.
+Computing results.
+
+
+14	python	migrations	/home/siddhesh/djcode/rssfeed/src/feedfetcher/migrations/0001_initial.py
+13	python	migrations	/home/siddhesh/djcode/rssfeed/src/feedfetcher/migrations/0002_auto_20150916_0807.py
+6	python	top_dir	/home/siddhesh/djcode/rssfeed/src/feedfetcher/admin.py
+17	python	top_dir	/home/siddhesh/djcode/rssfeed/src/feedfetcher/feeds.py
+6	python	top_dir	/home/siddhesh/djcode/rssfeed/src/feedfetcher/forms.py
+6	python	top_dir	/home/siddhesh/djcode/rssfeed/src/feedfetcher/models.py
+27	python	top_dir	/home/siddhesh/djcode/rssfeed/src/feedfetcher/tasks.py
+4	python	top_dir	/home/siddhesh/djcode/rssfeed/src/feedfetcher/tests.py
+37	python	top_dir	/home/siddhesh/djcode/rssfeed/src/feedfetcher/views.py
