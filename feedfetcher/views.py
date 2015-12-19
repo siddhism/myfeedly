@@ -12,6 +12,7 @@ def home(request):
 	#added dummy comment
 	# another commit
 	# Testing with github Plugin jenkins
+	# Deploying on ci.jokesworld.com:8080
 	all_subscriptions = RssUrl.objects.all()
 	if form.is_valid():
 		save_it = form.save(commit= False)
