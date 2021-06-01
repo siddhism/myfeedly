@@ -19,6 +19,6 @@ pyflakes==1.0.0
 pytz==2015.4
 redis==2.10.3
 six==1.10.0
-urllib3==1.12
+urllib3==1.26.5
 wrapt==1.10.6
 wsgiref==0.1.2
